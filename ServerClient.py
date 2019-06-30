@@ -67,7 +67,7 @@ def Server(port, algorithm):
     # Verify WUP Request
     flag = 0
     count = 1
-    while flag != 1 or count != 129:
+    while count != 129:
         # Decrypt Session Key and WUP request
         print('Number of Trials:', count)
 

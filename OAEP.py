@@ -69,7 +69,9 @@ start = time.time()
 a, b, c = generateKey()
 message = "0x592fa743889fc7f92ac2a37bb1f5ba1d"
 encrypt = encrypt(message, a, c)
+print("Encrypted Message:", encrypt)
 decrypt = decrypt(encrypt, b, c)
+print("Decrypted Message:", decrypt)
 if int(decrypt, 16) == int(message, 16):
     print("Decrypt successful!!")
 else:
