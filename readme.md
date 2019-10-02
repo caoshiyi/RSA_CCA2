@@ -6,6 +6,9 @@
 
 3. ServerClient.py - The server-client-cracker communication simulation model. 
 
+## Environment
+Windows10, py3.5
+
 ## Running
 To start, run ```python ServerClient.py server [port] rsa``` in one terminal to setup the server.
 
